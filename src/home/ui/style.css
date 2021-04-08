@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "DEVIOUS Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("./../../fonts/DEVIOUS.woff"),
+    url("./../../fonts/DEVIOUS.woff") format("woff");
+}
+
+/*------------------- RESET ------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*------------------- FEATURES ------------------- */
+
+.absolute {
+  position: absolute;
+}
+
+/*------------------- NAVBAR ------------------- */
+
+.nav-bar {
+  background-color: black;
+}
+
+@media screen and (max-width: 550px) {
+  .nav-bar {
+    display: none;
+  }
+}
+
+.logo {
+  display: inline-block;
+  width: 15%;
+  min-width: 150px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.menu {
+  display: inline-block;
+  width: 70%;
+  text-align: left;
+}
+
+.menu ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 3%;
+}
+
+.menu ul li a {
+  font-family: "DEVIOUS Regular";
+  font-size: 1.2em;
+  cursor: pointer;
+  letter-spacing: 3px;
+  transition: color 0.4s, font-size 0.4s;
+
+  padding-bottom: 10px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+
+.menu ul li a:hover {
+  color: rgb(169, 172, 169);
+  border-bottom: solid 3px rgb(97, 1, 134);
+}
+
+/*------------------- NAVBAR MOBILE ------------------- */
+
+.nav-bar-mobile {
+  text-align: center;
+  background-color: black;
+  position: relative;
+}
+
+@media screen and (min-width: 550px) {
+  .nav-bar-mobile {
+    display: none;
+  }
+}
+
+.btn-menu {
+  background-color: black;
+}
+
+/*------------------- NAVBAR MOBILE WINDOW------------------- */
+
+.nav-bar-mobile-window {
+  display: none;
+  position: absolute;
+  background-color: black;
+  width: 100%;
+}
+
+.nav-bar-mobile-window ul li {
+  padding: 15px 0;
+}
+
+.link-nav-bar a {
+  font-family: "DEVIOUS Regular";
+  font-size: 1.2em;
+  cursor: pointer;
+  letter-spacing: 3px;
+  transition: color 0.4s, font-size 0.4s;
+  padding-bottom: 10px;
+  width: 100%;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+}
+
+.link-nav-bar a:hover {
+  color: rgb(169, 172, 169);
+  border-bottom: solid 2px rgb(97, 1, 134);
+}
+
+@media screen and (max-width: 550px) {
+  .nav-bar-mobile-window ul li {
+    padding: 0;
+  }
+
+  .link-nav-bar a {
+    padding: 15px 0;
+    display: inline-block;
+  }
+
+  .link-nav-bar a:hover {
+    color: rgb(169, 172, 169);
+    border-left: solid 5px rgb(97, 1, 134);
+    border-right: solid 5px rgb(97, 1, 134);
+    border-bottom: none;
+  }
+}
+
+.window-active {
+  display: block;
+}
+
+.window-inactive {
+  display: none;
+}
+
+/*------------------- PAGES------------------- */
