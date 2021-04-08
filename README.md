@@ -1,2 +1,0 @@
-# resume
-Check my portfolio!
