@@ -1,5 +1,5 @@
 import "../../ui/style.css";
-import menuMobile from "../../images/menu-icon-mobile.png";
+import menuMobile from "../../../assets/menu-icon-mobile.png";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 

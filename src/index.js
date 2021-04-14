@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Root from './home/components/Root'
-import "../src/home/ui/style.css";
+import Root from './main/components/Root'
+import "../src/main/ui/style.css";
 
 
 
