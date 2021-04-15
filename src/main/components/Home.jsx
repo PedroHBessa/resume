@@ -1,4 +1,4 @@
-import hero from "../../assets/note-home.jpg";
+import hero from "../../assets/pc-hero-2.jpg";
 import "../../main/ui/style.css";
 
 function Home() {

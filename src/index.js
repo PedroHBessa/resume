@@ -6,7 +6,7 @@ import "../src/main/ui/style.css";
 
 
 ReactDOM.render(
-    <div>
+    <div className="main">
     
     <Root />
    </div>

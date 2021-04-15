@@ -10,11 +10,10 @@ const NavBarMobile = () => {
   function OpenCloseWindow() {
     if (!isOpen) {
       setWindow("nav-bar-mobile-window window-active");
-      setisOpen(true);
     } else {
       setWindow("nav-bar-mobile-window window-inactive");
-      setisOpen(false);
     }
+    setisOpen(!isOpen);
   }
 
   return (
